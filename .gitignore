@@ -1,0 +1,39 @@
+# Dependencies
+frontend/node_modules/
+node_modules/
+backend/.venv/
+.venv/
+venv/
+ENV/
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+*.log
+
+# Build & Bundles
+frontend/dist/
+dist/
+build/
+.vite/
+
+# Local databases & secrets
+backend/aviator.db
+*.db
+*.sqlite3
+backend/.env
+.env
+.env.local
+.env.*.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
